@@ -16,6 +16,8 @@ Jalankan dengan: python src/indexing.py
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 # ─── LANGKAH 0: Load konfigurasi dari .env ───────────────────────────────────
 load_dotenv()
@@ -49,7 +51,7 @@ def build_index_langchain():
     - Chroma: vector database lokal
     """
     from langchain_community.document_loaders import DirectoryLoader, TextLoader, PyPDFLoader
-    from langchain.text_splitter import RecursiveCharacterTextSplitter
+    from langchain_text_splitters import RecursiveCharacterTextSplitter
     from langchain_community.embeddings import HuggingFaceEmbeddings
     from langchain_community.vectorstores import Chroma
 
