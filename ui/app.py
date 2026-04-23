@@ -356,12 +356,12 @@ if len(messages_list) == 0:
     st.markdown("<h3 style='text-align: center; color: #059669; font-weight: 700; margin-bottom: 2rem;'>Coba tanyakan sesuatu:</h3>", unsafe_allow_html=True)
     
     c1, c2, c3 = st.columns(3)
-    if c1.button("🪴 Cara budidaya selada hidroponik", use_container_width=True):
-        quick_action_clicked = "Bagaimana tahapan menanam selada menggunakan sistem hidroponik?"
-    if c2.button("🐛 Solusi penyakit wereng coklat", use_container_width=True):
-        quick_action_clicked = "Apa obat atau cara ampuh untuk membasmi hama wereng coklat pada tanaman?"
-    if c3.button("💧 Panduan penyiraman bunga hias", use_container_width=True):
-        quick_action_clicked = "Kapan jadwal dan cara menyiram tanaman hias yang benar agar tidak layu?"
+    if c1.button("🏡 Dampak potensi pangan rumah", use_container_width=True):
+        quick_action_clicked = "Apa dampak dari pemanfaatan potensi sumber daya di sekitar rumah bagi kemandirian pangan?"
+    if c2.button("🌾 N-P-K untuk budidaya padi", use_container_width=True):
+        quick_action_clicked = "Berapa nilai Nitrogen (N), Fosfor (P), dan Kalium (K) yang dibutuhkan untuk budidaya padi (rice)?"
+    if c3.button("🏢 Solusi lahan hijau di kota", use_container_width=True):
+        quick_action_clicked = "Bagaimana cara mengatasi keterbatasan ruang terbuka hijau komunal untuk bertanam di kota?"
         
     st.markdown("<br><br>", unsafe_allow_html=True)
 
