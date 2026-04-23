@@ -314,7 +314,7 @@ with st.sidebar:
     st.markdown("### 🌿 Info Sistem")
     
     st.markdown("""
-    **Kelompok:** *7*  
+    **Kelompok:** **7**  
     **Framework RAG:** LangChain  
     **Vector DB:** ChromaDB  
     **Embedding:** MiniLM 
