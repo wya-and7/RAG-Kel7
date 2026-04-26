@@ -25,7 +25,7 @@
 ```
 RAG-uts-Kel7/
 ├── data/                    # Dokumen sumber Anda (PDF, TXT, dll.)
-│   └── Crop_recomendationV2 # Contoh dokumen (ganti dengan dokumen Anda)
+│   └── Crop_recomendationV2.csv
 ├── src/
 │   ├── indexing.py          # 🔧 WAJIB DIISI: Pipeline indexing
 │   ├── query.py             # 🔧 WAJIB DIISI: Pipeline query & retrieval      
@@ -34,7 +34,7 @@ RAG-uts-Kel7/
 ├── docs/
 │   └── Arsitektur.png       # 📌 Diagram arsitektur (buat sendiri)
 ├── evaluation/
-│   └── hasil evaluasi.xlsx  # 📌 Tabel evaluasi 10 pertanyaan
+│   └── hasil evaluasi.csv  # 📌 Tabel evaluasi 10 pertanyaan
 ├── .env.example             # Template environment variables
 ├── .gitignore
 ├── requirements.txt
@@ -121,7 +121,7 @@ Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 
 ## 🏗️ Arsitektur Sistem
 
-![Diagram Arsitektur RAG](docs/Diagram.png)
+![Diagram Arsitektur RAG](docs/Arsitektur.png)
 
 ```
 [Dokumen] → [Loader] → [Splitter] → [Embedding] → [Vector DB]
@@ -133,7 +133,7 @@ Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 
 ## 📚 Referensi & Sumber
 
-- Framework: *(LangChain docs / LlamaIndex docs)*
+- Framework: *Langchain docs*
 - LLM: *Groq*
 - Vector DB: *ChromaDB*
 
@@ -143,4 +143,4 @@ Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 
 - **Mata Kuliah:** Data Engineering
 - **Program Studi:** D4 Teknologi Rekayasa Perangkat Lunak
-- **Deadline:** *(isi tanggal)*
+- **Deadline:** *Senin, 27 April 2026*
